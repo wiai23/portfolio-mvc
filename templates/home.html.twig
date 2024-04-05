@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <h1>Hemsida</h1>
+
+    <p>
+        Hej, jag heter William och är 21 år gammal och bor i Stockholm. Mina intressen är att cykla och simma. 
+        Jag går den här kursen för att jag är intresserad av att lära mig webbprogrammering.
+    </p>
+
+    <a href="{{ asset('img/william.jpeg') }}">
+        <img src="{{ asset('img/william.jpeg') }}" alt="">
+    </a>
+{% endblock %}
